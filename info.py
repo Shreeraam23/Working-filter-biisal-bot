@@ -96,7 +96,7 @@ TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Movie_Url_link_downloader/17')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Kʏᴀ ʀᴇ Bʜɪᴋᴍᴀɴɢᴀ 😑,Kʏᴀ ᴅᴇᴋʜ ʀᴀʜᴀ ʜᴀɪ ?')
 
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002207691468'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002002676121'))
 VERIFY_REQ_CHNL = int(environ.get('VERIFY_REQ_CHNL', '-1002231181299'))
 NEW_USER_LOG = int(environ.get('NEW_USER_LOG', '-1002166823525'))
 BIN_CHNL = int(environ.get('BIN_CHNL', '-1002193315750'))
