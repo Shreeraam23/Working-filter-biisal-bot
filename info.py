@@ -75,8 +75,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sheetuzt23:sheetu@cluster0.qekf8qc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "bisal-ki-bot")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://sheetuzt23:sheetu@cluster0.qekf8qc.mongodb.net/")
+DATABASE_NAME = environ.get('DATABASE_NAME', "sheetuzt23")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegam_files')
 
 # Others
@@ -90,7 +90,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "20")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', '')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/doomsdayrequest')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/doomsdayrequest')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/doomsdayrequest')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
